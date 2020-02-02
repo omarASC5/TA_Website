@@ -5,34 +5,60 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Marinie Ben Portfolio</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+	</style>
 	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./img/logo.png">
+	<link rel="stylesheet" href="about.css">
 </head>
 <body>
-	<header id="header">
-		<p id="email">xmarinie@gmail.com</p>
-		<p id="phone_number">757-849-2007</p>
-		<p id="full_name">Marinie Ben</p>
-	</header>
+<div id='header-container'>
+			<header id="header">
+				<p id="email">
+					<a href="mailto:xmarinie@gmail.com">
+						xmarinie@gmail.com
+					</a>
+				</p>
+				<p id="phone_number">757-849-2007</p>
+				<p id="full_name"><strong>Marinie Ben</strong></p>
+				<p id="logo">
+					<a href="index.html">
+						<img src="./img/logo.png" alt="Mars Logo">
+					</a>
+				</p>
+			</header>
+		</div>
+
+	<footer>
+		<a href="index.html">
+				<button class="page_button" id="portfolio_button">PORTFOLIO</button>
+		</a>
+		<a href="#header">
+			<button class="page_button" id="about_button">ABOUT</button>
+		</a>
+	</footer>
 	<main>
-		<div class="main">
-			<h2 id="section_title">ABOUT</h2>
+		<h2 id="section_title">ABOUT</h2>
+			<div class="main">
+
 				<section class="about-pic">
-					<img src="https://via.placeholder.com/476x458" alt="placeholder">
+					<img src="./img/mike20wazowski.png" alt="placeholder">
 				</section>
 
 				<section class="about-text">
 					<p>My name is Marinie Ben, or Mars for short!</p>
-
+					<br>
 					<p>    I am a Cambodian-American undergraduate 
 						student at Rensselaer Polytechnic Institute 
 						with digital and traditional experience in 
 						Architecture and Design. 
 					</p>
-
+					<br>
 					<p>    I have background in studio training and 
 						professional drawing, as well as both abstract 
 						and technical thinking in design.</p>
-
+					<br>
 					<p>My focus on Architecture is the social impact 
 						it has on communities, families and individuals 
 						across the world. Whether a landmark or a 
@@ -44,9 +70,9 @@
 						enjoyed by all types of lives. 
 					</p>
 				</section>
+			</main>
 		</div>
-	</main>
-	<footer>
+	<footer id="button-container-bottom">
 		<a href="index.html">
 				<button class="page_button">PORTFOLIO</button>
 		</a>
